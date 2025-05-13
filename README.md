@@ -1,2 +1,58 @@
-# wewcom.oi
-pagina web by wewcom
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños.!!!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor de contraseña -->
+  <div id="password-container">
+    <div class="password-box">
+      <label for="password">Ingresar Contraseña:</label>
+      <input type="password" id="password" placeholder="Respuesta">
+      <button id="password-button">Entrar</button>
+    </div>
+  </div>
+
+  <!-- Contenido principal (oculto inicialmente) -->
+  <div id="main-content" class="hidden">
+    <h1 class="title">¡Feliz Cumpleaños Mi Armandito.!!!</h1>
+    <p class="greeting-text">Espero que este día esté lleno de alegría, amor y sorpresas especiales. ¡Te lo mereces!</p>
+
+    <!-- Contenedor de cascada -->
+    <div id="cascade-container">
+      <img src="Pokemon.jpg" alt="Imagen 1" class="cascade-item image">
+      <div class="cascade-item window">
+        <div class="window-content">¡Felicidades en tu dia terroncito de azúcar!</div>
+      </div>
+      <img src="hunter.jpg" alt="Imagen 2" class="cascade-item image">
+      <div class="cascade-item window">
+        <div class="window-content">¡Eres increíble y nun!</div>
+      </div>
+      <img src="hollow.jpg" alt="Imagen 3" class="cascade-item image">
+      <div class="cascade-item window">
+        <div class="window-content">¡Disfruta tu día al máximo!</div>
+       </div>
+      <img src="spiderman.jpg" alt="Imagen 4" class="cascade-item image">
+      <div class="cascade-item window">
+        <div class="window-content">¡sdad</div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Contenedor de corazones y globos -->
+    <div id="hearts-and-balloons"></div>
+  </div>
+
+  <!-- Audio de fondo -->
+  <audio id="bg-music" loop>
+    <source src="pokemon.mp3" type="audio/mpeg">
+    <source src="pokemon.ogg" type="audio/ogg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
