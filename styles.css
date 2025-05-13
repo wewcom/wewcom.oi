@@ -1,0 +1,102 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fce4ec;
+  body {
+  overflow-y: auto; /* Permite el desplazamiento solo si es necesario */
+}
+}
+
+/* Contenedor de contraseña */
+#password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8bbd0;
+  animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+}
+
+.password-box {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Contenido principal */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fd1818;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.greeting-text {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Contenedor de cascada */
+#cascade-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Estilo de los elementos de la cascada */
+.cascade-item {
+  width: 200px;
+  height: auto;
+  transition: all 1s ease-in-out; /* Transición suave para el cambio de posición */
+}
+
+.image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #e91e63;
+  border-radius: 10px;
+  height: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.window-content {
+  font-size: 16px;
+  color: #e91e63;
+  text-align: center;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
